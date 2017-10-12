@@ -1,0 +1,66 @@
+{
+  "name": "emagyar",
+  "version": "1.0.0",
+  "description": "NodeJS client for hunlp-GATE",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test; mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kebou/emagyar.git"
+  },
+  "author": "kebou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kebou/emagyar/issues"
+  },
+  "homepage": "https://github.com/kebou/emagyar#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "sinon": "*"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always",
+        {
+          "omitLastInOneLineBlock": true
+        }
+      ],
+      "eqeqeq": "error",
+      "handle-callback-err": "error",
+      "valid-typeof": "error",
+      "block-scoped-var": "error",
+      "no-console": "off"
+    }
+  }
+}
