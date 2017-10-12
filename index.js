@@ -1,2 +1,2 @@
 'use strict';
-module.exports.class = require('./lib/emagyar');
+module.exports = require('./lib/emagyar');
